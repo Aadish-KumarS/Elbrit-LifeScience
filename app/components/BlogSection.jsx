@@ -1,6 +1,8 @@
 import { blogData } from "../constant"
 import '../styles/blogSection.css'
 
+
+// BlogSection Component 
 const BlogSection = () => {
   return (
     <section className="blogSec">

@@ -49,3 +49,38 @@
   font-weight: 300;
   margin-left: .5rem;
 }
+
+
+/* Responsive Design ====================================*/
+/* Responsive Design ====================================*/
+
+/* Responsive for mobile and Tab*/
+@media (max-width:1024px) {
+  .footer {
+    padding: 2rem 1rem;
+  }
+
+  .footer-card {
+    width: 100%;
+  }
+
+  .footer-card-section {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+  .footer-section2{
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .footer-section2 p {
+    width: 300px;
+    font-size: 0.7rem;
+    margin: 0;
+  }
+
+  .footer-section2 img {
+    width: 180px;
+    height: 50px;
+  }
+}

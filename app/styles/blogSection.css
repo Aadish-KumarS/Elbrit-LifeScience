@@ -84,3 +84,49 @@
   transform: translateX(-1.75rem);
   margin-bottom: .65rem;
 }
+
+
+/* Responsive Design ====================================*/
+/* Responsive Design ====================================*/
+
+/* Responsive for mobile and Tab*/
+@media (max-width:1024px) {
+  .blogSec-list {
+    padding-inline: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem
+  }
+
+  .blog-item {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    margin: 0;
+  }
+
+  .blog-info h3 {
+    font-size: 0.75rem;
+    margin-left: 1rem;
+  }
+
+  .blog-info p {
+    font-size: 0.7rem;
+    transform: translateX(-1.5rem);
+    padding: 0.3rem 1rem;
+  }
+  .blog-item:nth-child(1) img,
+  .blog-item:nth-child(4) img,
+  .blog-item:nth-child(5) img,
+  .blog-item:nth-child(8) img{
+    height: 360px;
+  }
+
+  .blog-item:nth-child(2)img,
+  .blog-item:nth-child(3)img,
+  .blog-item:nth-child(7)img,
+  .blog-item:nth-child(6)img {
+    height: 220px !important;
+  }
+}

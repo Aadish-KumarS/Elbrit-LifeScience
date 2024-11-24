@@ -1,5 +1,7 @@
 const { productFeatures } = require("../constant");
 
+
+// FeatureElement Component 
 const FeatureElement = () => {
   return (
     <>
