@@ -18,6 +18,7 @@ const Footer = () => {
               src={item.img} 
               alt={`Footer Image ${index + 1}`} 
               className="footer-img" 
+              loading="lazy"
             />
             {/* Footer card info: title and description */}
             <div className="footer-info">

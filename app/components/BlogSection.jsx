@@ -13,7 +13,7 @@ const BlogSection = () => {
       <div className="blogSec-list">
         {blogData.map((item, index) => (
           <div key={index} className="blog-item" >
-            <img src={item.img} alt={`Blog ${index + 1} Img`} className="blog-img" />
+            <img src={item.img} alt={`Blog ${index + 1} Img`} className="blog-img" loading="lazy"/>
             <div className="blog-info column">
               <p>{item.date}</p>
               <h3>{item.desc}</h3>
